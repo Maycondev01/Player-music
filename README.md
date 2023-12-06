@@ -50,3 +50,8 @@ Navegação entre Músicas:
 O projeto utiliza o conjunto de ícones FontAwesome para os botões de controle. Certifique-se de incluir a biblioteca FontAwesome em sua página para a correta exibição dos ícones.
 
 `<script src="https://kit.fontawesome.com/4ad8e2c939.js" crossorigin="anonymous"></script>`
+
+## Imagem anexada abaixo:
+
+![image](https://github.com/Maycondev01/Player-music/assets/89277603/d547cf83-1ca1-4a54-8659-c9742f784e3e)
+
