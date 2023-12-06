@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Player de Músicas</title>
+</head>
+
+<body>
+    <div class="player">
+
+        <div class="logo">
+            <i class="fa fa-music"></i>
+        </div>
+
+        <span id="musicName"></span>
+
+        <audio id="player"></audio>
+
+        <div class="controls">
+            <button id="prevButton"><i class="fas fa-fast-backward"></i></button>
+            <button id="playPauseButton"><i class="fas fa-pause"></i></button>
+            <button id="nextButton"><i class="fas fa-fast-forward"></i></button>
+        </div>
+        <div class="footer">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="time">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="./script.js"></script>
+<script src="https://kit.fontawesome.com/4ad8e2c939.js" crossorigin="anonymous"></script>
+
+</html>
